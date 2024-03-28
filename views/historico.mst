@@ -1,0 +1,24 @@
+<body style="font-family:arial; height:100vh">
+
+    <h1 style="text-align:center; color:#20b2aa;">Histórico</h1>
+    <p style="text-align:center">Histórico de matérias já cursadas nos primeiros 3 semestres:</p>
+
+<table style="border: 0; width:80%; margin:0 auto">
+  <tr style="font-size: 15px">
+    <th style="text-align:center; background-color:#20b2aa; padding: 10px 0">Sigla:</th>  
+    <th style=" text-align:center; background-color:#20b2aa; padding: 10px 0">Nome:</th>  
+    <th style=" text-align:center; background-color:#20b2aa; padding: 10px 0">Semestre:</th>
+    <th style="text-align:center; background-color:#20b2aa; padding: 10px 0">Situação:</th>
+  </tr>
+
+  {{#historico}}
+    <tr style="font-size: 14px">
+      <td style="text-align:center; padding:10px 5px">{{sigla}}</td>  
+      <td style="text-align:center; padding:10px 5px">{{nome}}</td> 
+      <td style="text-align:center; padding:10px 5px">{{semestre}}</td> 
+      <td style="text-align:center; padding:10px 5px">{{situacao}}</td>
+    </tr>
+  {{/historico}}
+</table>
+{{> footer}}
+</body>

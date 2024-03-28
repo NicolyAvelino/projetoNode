@@ -1,0 +1,25 @@
+{
+  "name": "projetonode",
+  "version": "1.0.0",
+  "description": "Exercícios Aula 26/01",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarolinaNSilva/ProjetoNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarolinaNSilva/ProjetoNode/issues"
+  },
+  "homepage": "https://github.com/CarolinaNSilva/ProjetoNode#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mustache-express": "^1.3.2"
+  }
+}

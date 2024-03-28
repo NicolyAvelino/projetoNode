@@ -1,0 +1,10 @@
+ <body style="font-family:arial;text-align:center; height:100vh">
+
+  <h1 style="color:#20b2aa; margin:20px 10px"> Meu projeto NODE </h1>
+  <p>Projeto criado para aula de Desenvolvimento Web II.</p>
+  <p>Desenvolvido em Node.JS com os frameworks Express e Mustache</p>
+  <p>Para acessar as outras páginas incluir na URL /grade ou /historico</p>
+
+{{> footer}}
+</body>
+  

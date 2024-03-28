@@ -1,0 +1,21 @@
+<body style="font-family:arial; height:100vh">
+
+    <h1 style="text-align:center; color:#20b2aa;">Grade 1º Semestre de 2023</h1>
+
+<table style="border: 0; width:80%; margin:20px auto">
+  <tr style="font-size: 15px">
+    <th style="background-color:#20b2aa; padding: 10px 0">Sigla:</th>  
+    <th style="background-color:#20b2aa; padding: 10px 0">Nome:</th>  
+    <th style="background-color:#20b2aa; padding: 10px 0">Aulas na semana:</th>
+  </tr>
+
+  {{#grade}}
+    <tr style="font-size: 14px">
+      <td style="text-align:center; padding:10px 0">{{sigla}}</td>  
+      <td style="text-align:center; padding:10px 0">{{nome}}</td> 
+      <td style="text-align:center; padding:10px 0">{{aulasemana}}</td> 
+    </tr>
+  {{/grade}}
+</table>
+{{> footer}}
+</body>
